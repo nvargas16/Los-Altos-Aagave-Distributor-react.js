@@ -8,5 +8,4 @@ export default function Logo(){
             <img src = {logo} className= 'logo' alt= 'Los Altos Agave Distributor, Inc.' ></img>
         </div>
     )
-
 }

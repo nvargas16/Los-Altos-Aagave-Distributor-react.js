@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+.list-nav{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+.nav-bar{
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+}
+.nav-shape{
+    border-radius: 30px;
+    padding:8px 30px;
+ 
+    border: solid black 3px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.nav-shape:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+
+
+
+
