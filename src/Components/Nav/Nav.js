@@ -1,6 +1,11 @@
 import React from 'react';
 import './Nav.css';
 import Logo from '../Logo/Logo';
+import {
+    Link
+  } from "react-router-dom";
+
+//Link is used to link components to the exact path defined in Route of the Switch in NavBar
 
 export default function Nav(){
     return(
@@ -8,44 +13,44 @@ export default function Nav(){
 
             <ul>
                 <li className= 'list-nav'>
-                    <div className= 'logo'><Logo/></div>
+                    <Link to= '/'><div className= 'logo'><Logo/></div></Link>
                 </li>
                 <div className= 'nav-bar'>
 
                   <li className= 'list-nav item'>
-                      <div className= 'nav-shape'>
+                      <Link to= '/'><div className= 'nav-shape'>
                           <p id= 'text'>
                               Home
                           </p>
-                      </div>
+                      </div></Link>
                   </li>
                   <li className= 'list-nav item'>
-                      <div className= 'nav-shape'>
+                      <Link to= '/AboutUs'><div className= 'nav-shape'>
                           <p>
                               About Us
                           </p>
-                      </div>
+                      </div></Link>
                   </li>
                   <li className= 'list-nav item'>
-                      <div className= 'nav-shape'>
+                      <Link to= '/Products'><div className= 'nav-shape'>
                           <p>
                               Products
                           </p>
-                      </div>
+                      </div></Link>
                   </li>
                   <li className= 'list-nav item'>
-                      <div className= 'nav-shape'>
+                      <Link to= '/Specials'><div className= 'nav-shape'>
                           <p>
                               Specials
                           </p>
-                      </div>
+                      </div></Link>
                   </li>
                   <li className= 'list-nav last'>
-                      <div className= 'nav-shape'>
+                      <Link to= '/Contact'><div className= 'nav-shape'>
                           <p>
                               Contact Us
                           </p>
-                      </div>
+                      </div></Link>
                   </li>
 
                 </div>
