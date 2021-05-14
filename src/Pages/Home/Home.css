@@ -22,7 +22,7 @@ body{
     height:550px;
     background-color: white;
     border-radius: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 /* used to center white background */
@@ -30,14 +30,29 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 70px;
+    padding-top: 60px;
 }
-.mezcal{
+/* Image syling */
+.home1{
     width:580px;
     height:280px;
     position:relative;
     z-index:1;
-    left:200px;
-    bottom:40px;
+    left:180px;
+    bottom:80px;
 }
+/* Text Styling */
+.text{
+    padding-top:0;
+    font-family: 'Anton', sans-serif;
+    font-size: 90px;
+    text-transform: uppercase;
+    line-height: 90px;
+    position:absolute;
+    top:200px;
+    right:300px;
+}
+
+
+
 

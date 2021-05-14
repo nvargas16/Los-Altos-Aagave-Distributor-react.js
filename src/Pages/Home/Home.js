@@ -10,13 +10,14 @@ export default function Home(){
              <div className= 'container'>
                  <Nav />
                  <div className= 'pic'>
-                     <img src= {home1} alt='mezcal' className='mezcal'></img>
+                     <img src= {home1} alt='mezcal' className='home1'></img>
                  </div>
-                 <p className= 'home-text'>
-                     Authentic <br/> Taste <br/> Tequila <br/> Mezcal <br/> Culture
-                 </p>
+                 <div>
+                     <p className= 'text'>
+                         Tequila <br /> Mezcal <br /> Tequila <br /> Mezcal 
+                     </p>
+                 </div>
             </div>
-
         </div>
        
     )
