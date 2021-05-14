@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from '../../Components/Nav/Nav';
 import './Home.css';
-import home1 from '../../Images/home1.png';
+import Vid from '../../Components/Vid/Vid';
 
 
 export default function Home(){
@@ -10,7 +10,9 @@ export default function Home(){
              <div className= 'container'>
                  <Nav />
                  <div className= 'pic'>
-                     <img src= {home1} alt='mezcal' className='home1'></img>
+                     <div className= 'home1'>
+                        <Vid />
+                     </div>
                  </div>
                  <div>
                      <p className= 'text'>

@@ -52,6 +52,11 @@ body{
     top:200px;
     right:300px;
 }
+.text:hover{
+    font-size:100px;
+    cursor:pointer;
+}
+
 
 
 

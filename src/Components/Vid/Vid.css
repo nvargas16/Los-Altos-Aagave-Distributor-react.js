@@ -1,0 +1,11 @@
+.tequila{
+    width:580px;
+    height:280px;  
+    border-radius: 194px;
+    overflow: hidden; 
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
