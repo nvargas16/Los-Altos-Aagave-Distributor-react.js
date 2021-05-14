@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* background */
+body{
+    background-image: url(../../Images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    background-size: 120%;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .6);  
+    background-attachment: fixed;
+}
+
+/* white background space */
+.container{
+    width:1122px;
+    height:550px;
+    background-color: white;
+    border-radius: 100px;
+    margin-bottom: 50px;
+}
+
+/* used to center white background */
+.parent-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+.mezcal{
+    width:580px;
+    height:280px;
+    position:relative;
+    z-index:1;
+    left:200px;
+    bottom:40px;
+}
+

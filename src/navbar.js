@@ -18,8 +18,7 @@ export default function NavBar(){
     return(
         <Router>
 
-            {/* Nav is placed in between router and switch, because it will be present in all pages  */}
-            <Nav />
+           
 
             <Switch>
 
