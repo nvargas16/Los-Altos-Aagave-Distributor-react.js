@@ -48,12 +48,15 @@ body{
     line-height:50px;
     text-align: center;
     vertical-align: middle;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 .phone:hover{
     cursor: pointer;
 }
 .phone:active{
     transform: scale(0.95);
+    background-color:#ffac0d;
+    border: solid #ffac0d 3px;
 }
 .phone-content{
     padding-left: 50px;
@@ -72,12 +75,15 @@ body{
     line-height:50px;
     text-align: center;
     vertical-align: middle;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 .email:hover{
     cursor: pointer;
 }
 .email:active{
     transform: scale(0.95);
+    background-color:#ffac0d;
+    border: solid #ffac0d 3px;
 }
 .email-content{
     padding-top:10px;
@@ -109,6 +115,17 @@ body{
     top:250px;
     right:200px;
 } 
+
+/* form styling */
+.formtitle{
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    text-align: center;
+    padding-top: 80px;
+    letter-spacing: 10px;
+}
+
+
 
 
 

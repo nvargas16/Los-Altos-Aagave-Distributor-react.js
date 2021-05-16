@@ -3,7 +3,7 @@ import './Contact.css';
 import Nav from '../../Components/Nav/Nav';
 import { Link } from "react-router-dom";
 import location from '../../Images/location.png';
-
+import Form from '../../Components/Form/Form';
 
 
 export default function Contact(){
@@ -16,7 +16,7 @@ export default function Contact(){
                     <Nav />
                     <div className= 'phone-content'>
                     <div className= 'phone'>
-                    <Link to={{ pathname: "https://example.zendesk.com/hc/en-us/articles/123456789-Privacy-Policies" }} target="_blank">
+                    <Link to={{ pathname: "tel:4146714751" }} onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"target="_blank">
                         <p className= 'phone-text'>
                             <strong>Phone/Fax:</strong> (414)671-4751
                         </p>
@@ -52,7 +52,12 @@ export default function Contact(){
                 target= "_blank"><img src= {location} alt='3431 W. Forest Home Ave Milwaukee, WI 53215' className= 'map'></img></Link>
                 </div>
 
-             
+                <h1 class= "formtitle">
+                    Contact Form
+                </h1>
+                <Form />
+
+        
                 {/* End of container div */}
                 </div>
             </div>

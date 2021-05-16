@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import NavBar from './NavBar.js';
 
 
+
+
 ReactDOM.render(
   <React.StrictMode>
     <NavBar />
