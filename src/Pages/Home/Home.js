@@ -7,7 +7,7 @@ import Vid from '../../Components/Vid/Vid';
 export default function Home(){
     return(
         <div className= 'parent-container'>
-             <div className= 'container'>
+             <div className= 'container1'>
                  <Nav />
                  <div className= 'pic'>
                      <div className= 'home1'>

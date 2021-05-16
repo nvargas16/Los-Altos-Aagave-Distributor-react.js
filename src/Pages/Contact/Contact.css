@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* get rid of text-decoration from external links */
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/* background */
+body{
+    background-image: url(../../Images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    background-size: 120%;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .6);  
+    background-attachment: fixed;
+}
+
+/* white background space */
+.container2{
+    width:1162px;
+    height:1150px;
+    background-color: white;
+    border-radius: 100px;
+    margin-bottom: 40px;
+}
+
+/* used to center white background */
+.parent-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+/* phone styling */
+.phone{
+    border-radius: 80px;
+    border: solid black 3px;
+    background-color: black;
+    color:white;
+    width:400px;
+    font-family:'Roboto', sans-serif;
+    font-size:25px;
+    line-height:50px;
+    text-align: center;
+    vertical-align: middle;
+}
+.phone:hover{
+    cursor: pointer;
+}
+.phone:active{
+    transform: scale(0.95);
+}
+.phone-content{
+    padding-left: 50px;
+}
+
+
+/* email styling */
+.email{
+    border-radius: 80px;
+    border: solid black 3px;
+    background-color: black;
+    color:white;
+    width:600px;
+    font-family:'Roboto', sans-serif;
+    font-size:25px;
+    line-height:50px;
+    text-align: center;
+    vertical-align: middle;
+}
+.email:hover{
+    cursor: pointer;
+}
+.email:active{
+    transform: scale(0.95);
+}
+.email-content{
+    padding-top:10px;
+    padding-left: 50px;
+}
+
+
+/* address styling */
+.address{
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    color:black;
+    line-height: 50px;
+}
+.address-content{
+    padding-top:10px;
+    padding-left: 50px;
+}
+.address:hover{
+    cursor: pointer;
+}
+.address:active{
+    color:#ffac0d;
+}
+
+/* Google Map Styling */
+.map{
+    position: absolute;
+    top:250px;
+    right:200px;
+} 
+
+
+
+
+
+

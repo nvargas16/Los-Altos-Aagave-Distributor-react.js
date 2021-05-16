@@ -17,9 +17,9 @@ body{
 }
 
 /* white background space */
-.container{
-    width:1122px;
-    height:550px;
+.container1{
+    width:1162px;
+    height:560px;
     background-color: white;
     border-radius: 100px;
     margin-bottom: 40px;
@@ -30,8 +30,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 60px;
+    padding-top: 40px;
 }
+
 /* Image syling */
 .home1{
     width:580px;
@@ -39,7 +40,7 @@ body{
     position:relative;
     z-index:1;
     left:180px;
-    bottom:80px;
+    bottom:60px;
 }
 /* Text Styling */
 .text{
