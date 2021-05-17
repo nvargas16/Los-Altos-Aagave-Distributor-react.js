@@ -104,6 +104,7 @@ body{
 }
 .address:hover{
     cursor: pointer;
+    color:#ffac0d;
 }
 .address:active{
     color:#ffac0d;
