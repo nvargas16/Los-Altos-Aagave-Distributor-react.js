@@ -64,26 +64,8 @@ export default function About(){
                 </p>
             </div>
 
-
-            
-              
-
-         
-
-               
-
-
              </div>
-             
-             
-
-
-
-
-
-
-
-
+            
             
        {/* About content ends here */}
        </div>

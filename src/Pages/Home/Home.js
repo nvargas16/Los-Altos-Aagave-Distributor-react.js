@@ -9,7 +9,7 @@ export default function Home(){
         <div className= 'parent-container'>
              <div className= 'container1'>
                  <Nav />
-                 <div className= 'pic'>
+                 <div>
                      <div className= 'home1'>
                         <Vid />
                      </div>
