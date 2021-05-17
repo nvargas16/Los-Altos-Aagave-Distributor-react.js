@@ -6,6 +6,7 @@ import location from '../../Images/location.png';
 import Form from '../../Components/Form/Form';
 
 
+
 export default function Contact(){
     return(
             <div className= 'parent-container'>
@@ -40,7 +41,7 @@ export default function Contact(){
                 <div className= 'address'>
                     <a href= "https://www.google.com/maps/place/Los+Altos+Agave/@42.9950571,-87.9571044,15z/data=!4m5!3m4!1s0x0:0xb71004f54521f9b7!8m2!3d42.9950571!4d-87.9571044"
                 target= "_blank" >
-                        <p>
+                        <p className= 'address-text'>
                             3431 W. Forest Home Ave <br /> Milwaukee, WI 53215
                         </p>
                     </a>
@@ -56,6 +57,7 @@ export default function Contact(){
                     Contact Form
                 </h1>
                 <Form />
+                
 
         
                 {/* End of container div */}

@@ -19,7 +19,7 @@ body{
 /* white background space */
 .container3{
     width:1162px;
-    height:560px;
+    height:1600px;
     background-color: white;
     border-radius: 100px;
     margin-bottom: 40px;
@@ -32,3 +32,113 @@ body{
     align-items: center;
     padding-top: 40px;
 }
+
+/* Description  */
+.description-text{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:1000px;
+    padding-left: 200px;
+    
+}
+
+/* about1 image */
+.pic1{
+    padding-left: 200px;
+    padding-top: 100px;
+    width:700px;
+    height:600px;
+   
+    
+}
+.image-text1{
+    position:absolute;
+    left:800px;
+    top:500px;
+}
+/* universal classes */
+.title{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.story{
+    font-family:'Roboto', sans-serif;
+    font-size:15px;
+
+}
+
+.pic{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    
+}
+
+/* about2 image */
+.pic2{
+    padding-left: 600px;
+    width:1000px;
+    height:600px;
+    overflow: hidden;
+    overflow: hidden;
+    position: absolute;
+    top:850px;
+    
+}
+
+.image-text2{
+    position: absolute;
+    top:900px;
+    left:300px;
+} 
+
+/* about3 image */
+.pic3{
+    padding-left: 200px;
+    padding-top: 100px;
+    width:700px;
+    height:600px;
+    overflow: hidden;
+    position: absolute;
+    top:1100px;
+    
+}
+.image-text3{
+    position:absolute;
+    left:800px;
+    top:1300px; 
+}
+/* hover effects */
+
+.pic3 img{
+    transition: 0.5s all ease-in-out;
+}
+
+.pic3 img:hover{
+    transform: scale(0.95);
+}
+.pic1 img{
+    transition: 0.5s all ease-in-out;
+}
+
+.pic1 img:hover{
+    transform: scale(0.95);
+}
+.pic2 img{
+    transition: 0.5s all ease-in-out;
+}
+
+.pic2 img:hover{
+    transform: scale(0.95);
+}
+
+
+
+
+
+
+
+

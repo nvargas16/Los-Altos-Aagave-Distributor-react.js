@@ -102,11 +102,11 @@ body{
     padding-top:10px;
     padding-left: 50px;
 }
-.address:hover{
+.address-text:hover{
     cursor: pointer;
     color:#ffac0d;
 }
-.address:active{
+.address-text:active{
     color:#ffac0d;
 }
 
