@@ -38,12 +38,16 @@
     cursor: pointer;
 }
 
-.nav-shape:active{
-    transform: scale(0.95);
-}
+
 .logo:hover{
     cursor: pointer;
 }
+.nav-shape:active::after{
+    transform: scale(0.95);
+    background-color: black;
+    color: white;
+}
+
 
 
 
